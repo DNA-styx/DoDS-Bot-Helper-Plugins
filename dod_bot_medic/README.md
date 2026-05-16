@@ -14,7 +14,7 @@ A SourceMod plugin for Day of Defeat: Source that monitors bot health and trigge
 ## Dependencies
 
 - [SourceMod](https://www.sourcemod.net/) 1.11 or later
-- Optional: a medic plugin that registers `sm_dodmedic_maximum` (e.g. [DoD Medic](https://forums.alliedmods.net/showthread.php?t=57753))
+- A medic plugin that (Optional) registers `sm_dodmedic_maximum` (e.g. [DoD Medic](https://forums.alliedmods.net/showthread.php?t=57753))
 
 ## Installation
 
