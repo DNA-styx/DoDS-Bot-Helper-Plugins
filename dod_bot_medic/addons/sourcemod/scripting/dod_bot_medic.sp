@@ -5,7 +5,7 @@
 #pragma semicolon 1
 #pragma newdecls required
 
-#define PLUGIN_VERSION      "1.7"
+#define PLUGIN_VERSION      "1.8"
 #define FALLBACK_THRESHOLD  30
 
 // Medic command modes
@@ -35,7 +35,7 @@ public void OnPluginStart()
         "dod_bot_medic_mode",
         "0",
         "Medic command mode. 0 = voice_medic, 1 = say !medic, 2 = say medic",
-        FCVAR_NOTIFY,
+        FCVAR_NONE,
         true, 0.0,
         true, 2.0
     );
@@ -44,7 +44,7 @@ public void OnPluginStart()
         "dod_bot_medic_threshold",
         "30",
         "HP threshold at which bots call for medic. Used if no external medic plugin ConVar is found.",
-        FCVAR_NOTIFY,
+        FCVAR_NONE,
         true, 1.0,
         true, 100.0
     );
