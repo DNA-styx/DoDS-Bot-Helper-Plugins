@@ -12,6 +12,10 @@ Automatically activates a bot's parachute when they are detected falling. Requir
 
 Makes bots call for medic when their health drops below a configurable threshold. Bots will only call once per life.
 
+### dod_navbot_classblock
+
+Lets server operators block NavBot bots from selecting specific DoD:S classes, on a per-class basis. Human players are unaffected.
+
 ---
 
 Created with Claude.ai, guided by DNA.styx
